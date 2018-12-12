@@ -16,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	// needed to add a folder to the root of our project
+	// ****also added a make directory method to the application main if the uploads folder does not exist****
 	public static String uploadDirectory = System.getProperty("user.dir") + "/uploads";
 
 	@RequestMapping("/")

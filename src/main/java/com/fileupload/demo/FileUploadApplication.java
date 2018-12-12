@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FileUploadApplication {
 
 	public static void main(String[] args) {
+		// added this in case the uploads folder does not exist -- calling the public variable from the HomeController
 		new File(HomeController.uploadDirectory).mkdir();
 		SpringApplication.run(FileUploadApplication.class, args);
 	}
