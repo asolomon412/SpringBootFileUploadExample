@@ -1,4 +1,4 @@
-package com.part2final.AssessmentPart2Final;
+package com.fileupload.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
